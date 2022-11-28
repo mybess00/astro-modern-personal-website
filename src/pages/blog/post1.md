@@ -26,6 +26,6 @@ Está medida hasta ahora ha sido un total desastre🌪️
   3. Devalúa la moneda, ya que el CUP con qué el estado pretende comprar esas divisas no tiene respaldo. “La orden de imprimir CUP está dada”
   4. En solo 8 días el precio de las divisas en Cuba han aumentado más de un 8%, yendo la media de 120 CUP a 130 CUP con tendencia al alza.
 
-Este es un resumen del comentario que intente hacer en @cubadebatecu pero al parecer "no cumple" con sus estándares.
+Este es un resumen del comentario que intente hacer en Cubadebate pero al parecer "no cumple" con sus estándares.
 
 ![Concepto Inflacion](/post1_img2.jpg)
