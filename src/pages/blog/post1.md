@@ -3,7 +3,7 @@ layout: "../../layouts/PostLayout.astro"
 title: "Inflación en Cuba 🇨🇺"
 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 pubDate: "Agosto 12 2022"
-heroImage: "/post_img.webp"
+heroImage: "/post1_cover.jpg"
 ---
 
 ❌Tras solo 8 días del estado anunciar su nueva insensatez: "tasa de cambio" a 120 CUP, ya se puede notar su predecible fracaso.
@@ -13,6 +13,8 @@ Desde que se anunció la medida el precio de las divisas en Cuba y el MLC han su
 El objetivo que perseguía esta medida era recoger las divisas que entran al país ofreciendo una alternativa al mercado informal. ¿Lo lograron? 🚫
 
 Por supuesto que no, primero que nada no existe ninguna tasa de cambio, ya que el estado solo compra divisas, no las vende.
+
+![Concepto Inflacion](../../public/post1_img1.jpg)
 
 🛒Lo que han hecho es introducir una orden de compra de divisas en 120 CUP con capital ilimitado.
 
