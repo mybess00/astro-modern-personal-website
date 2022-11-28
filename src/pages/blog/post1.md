@@ -14,7 +14,7 @@ El objetivo que perseguía esta medida era recoger las divisas que entran al pa�
 
 Por supuesto que no, primero que nada no existe ninguna tasa de cambio, ya que el estado solo compra divisas, no las vende.
 
-![Concepto Inflacion](../../public/post1_img1.jpg)
+![Concepto Inflacion](/post1_img1.jpg)
 
 🛒Lo que han hecho es introducir una orden de compra de divisas en 120 CUP con capital ilimitado.
 
@@ -27,3 +27,5 @@ Está medida hasta ahora ha sido un total desastre🌪️
   4. En solo 8 días el precio de las divisas en Cuba han aumentado más de un 8%, yendo la media de 120 CUP a 130 CUP con tendencia al alza.
 
 Este es un resumen del comentario que intente hacer en @cubadebatecu pero al parecer "no cumple" con sus estándares.
+
+![Concepto Inflacion](/post1_img2.jpg)
