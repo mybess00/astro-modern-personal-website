@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/PostLayout.astro"
 title: "Inflación en Cuba 🇨🇺"
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+description: "❌Tras solo 8 días del estado anunciar su nueva insensatez: "tasa de cambio" a 120 CUP, ya se puede notar su predecible fracaso"
 pubDate: "Agosto 12 2022"
 heroImage: "/post1_cover.jpg"
 ---
