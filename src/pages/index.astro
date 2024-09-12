@@ -14,45 +14,55 @@ const last_posts = posts.slice(0, 1);
     <div class="pb-12 mt-5">
       <div class="text-xl py-1">Hola 👋</div>
       <div class="text-5xl font-bold">Soy Rafael Planas</div>
-      <div class="text-3xl py-3 font-bold">Estudiante y Emprendedor</div>
+      <div class="text-3xl py-3 font-bold">Desarrollador Web</div>
       <div class="py-2">
         <text class="text-lg">
-          Este es mi sitio web personal. Soy estudiante de medicina y autodidacta de la Programación. Hace varios años conocí a bitcoin y las criptomonedas, desde entonces comparto lo que aprendo.
+          Desarrollador Web Frontend especializado en ReactJS con 2 años de experiencia. Domino el uso
+de hooks en React, creación de hooks personalizados, he trabajado con React Router, React
+Query, Redux. Tengo un amplio conocimiento de NextJS, he utilizado sus hooks, enrutamiento de
+páginas y componentes del mismo.
           </text
         >
       </div>
       <div class="mt-8">
-        <a class="btn" href="https://twitter.com/RafaelAndresPB" target="_blank"> Seguir</a>
+        <a class="btn" href="mailto:betancourtrafael00@gmail.com" target="_blank"> Contactar</a>
         <a href="/cv" class="btn btn-outline ml-5"> Conocer más</a>
       </div>
     </div>
 
     <div>
-      <div class="text-3xl w-full font-bold mb-2">Mis Proyectos{"</>"}</div>
+      <div class="text-3xl w-full font-bold mb-2">Algunos Proyectos{"</>"}</div>
     </div>
-
     <HorizontalCard
-      title="BitNautas"
-      img="/post_img_bitnautas.webp"
-      desc="Es una comunidad cubana relacionada con las criptomonedas, NFT, Web3, blockchain y mucho más. Los miembros  tienen acceso sin costo y en todo momento a el contenido educativo publicado en la comunidad."
-      url="https://bitnautas_cu.point.link/"
-      badge="TOP"
-    />
-    <div class="divider my-0"></div>
-    <HorizontalCard
-    title="eManager"
-    img="/post_img_emanager.webp"
-    desc="Es una aplicación móvil desarrollada con el objetivo de administrar los servicios de Etecsa de la manera más minimalista y práctica posible. Cuenta con todas las herramientas necesarias para hacer un uso rápido e intuitivo de los servicios de Etecsa, tales como consulta de saldo, planes combinados, paquetes de datos, voz y mensajes. eManager organiza tus últimas operaciones proporcionadas por Transfermóvil, te permite autenticarte y consulta tus últimas operaciones sin salir de la aplicación. Puedes usar la función de eTransfer para transferir y recibir saldo mediante códigos QR."
-    url="https://www.apklis.cu/application/com.raise.studios.emanager"
+    title="Ecommerce & Dashboard"
+    img="/post_img_bitnautas.webp"
+    desc={`• Diseñé y desarrollé una plataforma escalable, capaz de gestionar cientos de e-commerce con alta concurrencia y disponibilidad. • Implementé un backend robusto utilizando Node.js con Supabase como capa de persistencia, optimizando consultas y la escalabilidad de la base de datos. 
+    <br/>• Desarrollé el frontend utilizando React.js junto a Vite para mejorar el tiempo de carga y compilación
+    <br/>• Se usó React Router para la gestión eficiente de rutas, React Hook Form para formularios controlados, y Chakra UI para una interfaz accesible y responsive. Redux fue integrado para el manejo centralizado del estado global. 
+    <br/>• Apliqué la arquitectura MVC (Modelo-Vista-Controlador) en el backend, promoviendo una separación clara de responsabilidades y facilitando el mantenimiento y escalabilidad del código`}
+  url="https://frontend-db.vercel.app/test_shop"
   />
-    <div class="divider my-0"></div>
-
-    <div>
-      <div class="text-3xl w-full font-bold mb-5 mt-10">Blog Personal</div>
+  <HorizontalCard
+  title="XchangeX (Conversor de Monedas) "
+  img="/post_img_bitnautas.webp"
+  desc={`• Implementé el consumo de APIs REST para obtener y
+  calcular los precios de distintas monedas.
+  <br/>• Utilicé las API Routes de Next.js para crear una API,
+  permitiendo un manejo eficiente de las solicitudes y
+  respuestas.
+  <br/>• Desarrollé un hook personalizado que facilita el consumo
+  de las APIs creadas.
+  <br/>• Implementé Server-Side Rendering (SSR) para optimizar la
+  velocidad de carga y el rendimiento general de la web.`}
+  url="https://xchangex-app.vercel.app/"
+  />
+    <div class="flex justify-end mt-4">
+      <a href="/projects" class="btn btn-outline ml-5"> Ver más</a>
     </div>
+  <div class="divider my-0"></div>
 
     {
-      last_posts.map((post) => (
+      /*last_posts.map((post) => (
         <HorizontalCard
           title={post.frontmatter.title}
           img={post.frontmatter.heroImage}
@@ -61,7 +71,7 @@ const last_posts = posts.slice(0, 1);
           target="_self"
         />
         <div class="divider my-0"></div>
-      ))
+      ))*/
     }
 
 </BaseLayout>

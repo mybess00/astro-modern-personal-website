@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import TimeLineElement from "../components/cv/TimeLine.astro";
+import HorizontalCard from "../components/HorizontalCard.astro";
 ---
 
 <BaseLayout title = "Resume">
@@ -9,40 +10,87 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
   </div>
 
   <div class="mb-10 text-justify">
-    Actualmente estudiante de la carrera de Medicina. Estudio de manera autodidactica Programación hace 2 años.
-    
-    Tengo conocimientos sobre criptomonedas y blockchain, soy fundador de BitNautas.cu , una comunidad de criptomonedas en Cuba que llegó a alcanzar más de 1200 miembros.
-    
-    He desarrollado aplicaciones móviles para Android usando Android Studio, actualmente estudio programación web con HTML, CSS y Javascript.
+    Desarrollador Web Frontend con 2 años de experiencia, especializado en ReactJS y NextJS. poseo dominio
+    en el uso de hooks, incluyendo la creación de hooks personalizados, y experiencia sólida en el manejo del
+    estado global con Redux. He trabajado extensivamente con React Router, React Query, y el enrutamiento
+    de páginas en NextJS, aprovechando sus hooks y componentes para construir aplicaciones escalables y
+    eficientes.
   </div>
 
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Educación</div>
+    <div class="text-3xl w-full font-bold">Experiencia</div>
   </div>
 
   <div class="time-line-container grid gap-4 mb-10">
     <TimeLineElement
-      title="Estudiante en Universidad de Ciencias Médicas"
-      subtitle="desde 2022 hasta la actualidad"
+      title="Desarrollador Frontend en Alta-Voz"
+      subtitle="[04/2024] - [08/2024]"
+      desc={`- Desarrollé y mantuve componentes reutilizables en React con un manejo eficiente del estado global
+utilizando React Redux, mejorando la coherencia y rendimiento de la aplicación.
+<br/>- Implementé y optimicé múltiples CRUDs de APIs REST, asegurando una integración fluida y
+eficiente con la plataforma.
+<br/>- Utilicé MUI para crear componentes de interfaz de usuario altamente personalizables y accesibles,
+facilitando un diseño cohesivo y atractivo.
+<br/>- Contribuí con ideas de diseño y optimización del flujo de la aplicación, mejorando la experiencia del
+usuario y la arquitectura general de la plataforma.`}      
+    />
+    <TimeLineElement
+      title="Desarrollador Frontend Freelancer"
+      subtitle="[05/2023] - [03/2024]"
+      desc={`- Desarrollé y modifiqué sitios web con Next.js, logrando mejorar el rendimiento mediante SSR.
+<br/>- Optimicé sitios web, mejorando la velocidad de carga y rendimiento.
+<br/>- Diseñé landing pages efectivas usando Tailwind CSS, daisyUI, Chakra UI, y MUI para lograr un
+despliegue rápido manteniendo la calidad y el buen diseño`}      
     />
   </div>
 
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Conocimientos</div>
+    <div class="text-3xl w-full font-bold">Proyectos</div>
+  </div>
+  <HorizontalCard
+  title="Ecommerce & Dashboard"
+  img="/post_img_bitnautas.webp"
+  desc={`• Diseñé y desarrollé una plataforma escalable, capaz de gestionar cientos de e-commerce con alta concurrencia y disponibilidad. • Implementé un backend robusto utilizando Node.js con Supabase como capa de persistencia, optimizando consultas y la escalabilidad de la base de datos. 
+  <br/>• Desarrollé el frontend utilizando React.js junto a Vite para mejorar el tiempo de carga y compilación
+  <br/>• Se usó React Router para la gestión eficiente de rutas, React Hook Form para formularios controlados, y Chakra UI para una interfaz accesible y responsive. Redux fue integrado para el manejo centralizado del estado global. 
+  <br/>• Apliqué la arquitectura MVC (Modelo-Vista-Controlador) en el backend, promoviendo una separación clara de responsabilidades y facilitando el mantenimiento y escalabilidad del código`}
+url="https://frontend-db.vercel.app/test_shop"
+/>
+<HorizontalCard
+title="XchangeX (Conversor de Monedas) "
+img="/post_img_bitnautas.webp"
+desc={`• Implementé el consumo de APIs REST para obtener y
+calcular los precios de distintas monedas.
+<br/>• Utilicé las API Routes de Next.js para crear una API,
+permitiendo un manejo eficiente de las solicitudes y
+respuestas.
+<br/>• Desarrollé un hook personalizado que facilita el consumo
+de las APIs creadas.
+<br/>• Implementé Server-Side Rendering (SSR) para optimizar la
+velocidad de carga y el rendimiento general de la web.`}
+url="https://xchangex-app.vercel.app/"
+/>
+  <div class="flex justify-end mt-4">
+    <a href="/projects" class="btn btn-outline ml-5"> Ver más</a>
+  </div>
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Habilidades Técnincas</div>
   </div>
 
   <ul class="list-disc md:columns-5 columns-2 mx-6">
     <li>Spanish (Native)</li>
-    <li>English (B1)</li>
-    <li>Java</li>
+    <li>English</li>
+    <li>ReactJS</li>
+    <li>NextJS</li>
+    <li>NodeJS</li>
+    <li>Typescript</li>
     <li>JavaScript</li>
     <li>CSS</li>
     <li>HTML</li>
-    <li>Android development</li>
-    <li>Wordpress</li>
-    <li>Image Manipulation</li>
-    <li>Office Suite</li>
-    <li>Adobe Photoshop</li>
-    <li>Adobe Illustrator</li>
+    <li>MySQL | SQL</li>
+    <li>Tailwindcss</li>
+    <li>Git | Github</li>
+    <li>Astro</li>
+    <li>Figma</li>
   </ul>
 </BaseLayout>
